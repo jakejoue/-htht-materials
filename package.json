@@ -1,5 +1,6 @@
 {
   "name": "@htht/materials",
+  "private": false,
   "version": "0.1.0",
   "description": "This is a ice material project",
   "author": "huangwei",
@@ -12,13 +13,16 @@
     "stylelint": "stylelint \"**/*.{css,scss,less}\"",
     "prepublishOnly": "npm run generate"
   },
-  "files": ["build"],
+  "files": [
+    "build"
+  ],
   "devDependencies": {
     "@iceworks/spec": "^1.0.0",
     "eslint": "^7.0.0",
     "stylelint": "^13.1.0"
   },
   "materialConfig": {
-    "type": "vue"
+    "type": "vue",
+    "template": "@icedesign/ice-vue-material-template"
   }
 }
