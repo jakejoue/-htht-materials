@@ -16,6 +16,10 @@
   "files": [
     "build"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.com"
+  },
   "devDependencies": {
     "@iceworks/spec": "^1.0.0",
     "eslint": "^7.0.0",
